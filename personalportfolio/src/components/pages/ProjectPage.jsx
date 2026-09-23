@@ -1,13 +1,14 @@
-import NavBack from "../features/NavBack";
+import { Link } from "react-router-dom";
+import { Button } from "../ui/button";
 
 const ProjectPage = () => {
     return (
         <div>
             <div>
-                <NavBack />
+                <Link to="/"><Button>Back</Button></Link>
             </div>
         </div>
-    )
-};
+    );
+}
 
 export default ProjectPage;
